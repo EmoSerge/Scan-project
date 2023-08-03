@@ -14,7 +14,7 @@ https://www.figma.com/file/u3MOjzYnTnirz712GrLbFv/%D0%9C%D0%B0%D0%BA%D0%B5%D1%82
 2. Клонируйте проект.
 
 ```bash
-git clone https://github.com/EmoSerge/weatherapp
+git clone https://github.com/EmoSerge/Scan-project.git
 ```
 
 3. Установите зависимости
