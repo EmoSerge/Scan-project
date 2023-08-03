@@ -1,0 +1,146 @@
+.resultItem {
+  background: var(--main-color-3);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 19px 30px 100px 30px;
+  position: relative;
+}
+
+.resultItem img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.cardHeader {
+  margin-bottom: 14px;
+}
+
+.date {
+  font-family: 'inter-regular';
+  font-weight: 400;
+  font-size: 16px;
+  color: #949494;
+  margin-right: 14px;
+}
+
+.source {
+  font-family: 'inter-regular';
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration-line: underline;
+  color: #949494;
+}
+
+.cardTitle {
+  font-family: 'inter-medium';
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-top: 24px;
+}
+
+.cardText {
+  margin-top: 20px;
+  font-family: 'inter-regular';
+
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: var(--main-color-2);
+  opacity: 0.5;
+  margin-bottom: 25px;
+}
+
+.cardFooter {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  bottom: 35px;
+  left: 30px;
+  right: 30px;
+}
+
+.wordCount {
+  font-family: 'inter-regular';
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+
+  color: #949494;
+}
+
+.readMore {
+  display: inline-block;
+  margin-top: 7px;
+  font-family: 'inter-regular';
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+
+  color: var(--main-color-2);
+  padding: 14px 33px;
+
+  background-color: var(--second-color-2);
+  border-radius: 10px;
+  transition: background-color ease-in-out 0.2s;
+}
+
+.readMore:hover {
+  background-color: var(--main-color-1);
+  color: var(--main-color-3);
+  transition: background-color ease-in-out 0.2s;
+}
+
+@media (max-width: 1140px) {
+  .resultItem {
+    padding: 19px 24px 100px 24px;
+  }
+  .date,
+  .source {
+    font-size: 13px;
+  }
+
+  .cardTitle {
+    font-size: 19px;
+    margin-top: 21px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+  }
+
+  .cardCategory {
+    font-size: 10px;
+    padding: 4px 13px;
+    margin-top: 20px;
+  }
+
+  .resultItem img {
+    min-height: 158px;
+  }
+
+  .cardText p {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    margin-bottom: 14px;
+  }
+
+  .readMore {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+
+    padding: 12px 20px;
+    border-radius: 5px;
+  }
+
+  .wordCount {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+  }
+}

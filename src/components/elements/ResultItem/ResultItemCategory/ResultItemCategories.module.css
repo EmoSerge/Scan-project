@@ -1,0 +1,20 @@
+.cardCategories {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cardCategory {
+  display: block;
+
+  max-width: fit-content;
+  font-family: 'inter-regular';
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  padding: 4px 13px;
+  border-radius: 5px;
+  background-color: var(--second-color-1);
+  margin-top: 14px;
+}

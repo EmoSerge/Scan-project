@@ -1,0 +1,219 @@
+.displayForm {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  padding: auto 50px;
+  justify-content: center;
+  height: 850px;
+}
+
+.Auth {
+  margin-top: 0;
+  color: var(--main-color-2);
+  font-family: 'ferry';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+
+.Authorization h1 {
+  color: var(--main-color-2);
+  font-size: 40px;
+  font-family: Ferry;
+  letter-spacing: 0.8px;
+}
+.Characters {
+  display: flex;
+  justify-content: center;
+  width: 460px;
+  height: 445px;
+  padding-left: 100px;
+}
+
+.loginForm {
+  position: relative;
+  box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 450px;
+  height: 550px;
+  padding: auto;
+}
+
+.form img.lock {
+  position: absolute;
+  width: 90px;
+  height: 75px;
+  top: -40px;
+  left: -55px;
+}
+
+.loginContainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.loginsignup {
+  width: 380px;
+  height: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-family: 'inter-regular';
+  font-size: 16px;
+  color: var(--main-color-1);
+  margin-bottom: 50px;
+}
+
+.login {
+  flex-grow: 2;
+  position: relative;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.login::after {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  width: 150px;
+  height: 4px;
+  border-bottom: var(--main-color-1) solid 2px;
+}
+
+.signup {
+  flex-grow: 1;
+  position: relative;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.signup::after {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 30px;
+  width: 200px;
+  height: 4px;
+  border-bottom: var(--main-color-1) solid 2px;
+}
+
+.formGroup label {
+  text-align: left;
+  color: #949494;
+  margin-bottom: -5px;
+  font-family: 'inter-regular';
+  font-size: 16px;
+}
+
+.loginContainer form {
+  padding: 15px;
+}
+
+.formGroup {
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.formGroup input {
+  width: 100%;
+  height: 40px;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: 1px solid #c7c7c7;
+  padding: 0 10px;
+}
+
+.btnSubmit {
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 60px;
+  margin: 10px auto;
+  font-size: 22px;
+  color: var(--main-color-3);
+  background-color: var(--second-color-3);
+  border-radius: 5px;
+}
+
+.recoverPwd {
+  display: block;
+  color: var(--second-color-3);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.imgsvg {
+  display: flex;
+  justify-content: left;
+  margin: 10px auto;
+}
+
+.facebook {
+  margin: 15px;
+}
+
+/* @media (min-width: 993px) and (max-width: 1400px) {
+} */
+@media (min-width: 320px) and (max-width: 1250px) {
+  .displayForm {
+    display: flex;
+    flex-direction: column;
+    height: 1300px;
+    padding: 10px;
+    margin: 0;
+    margin-top: -70px;
+    align-items: center;
+  }
+  .Auth {
+    margin-top: 0;
+    color: var(--main-color-2);
+    font-family: 'ferry';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+  }
+  .Authorization h1 {
+    font-size: 22px;
+    max-width: 380px;
+  }
+  .Characters {
+    position: relative;
+    width: 335px;
+    height: 355px;
+    padding-left: 15px;
+    bottom: -700px;
+  }
+  .loginForm {
+    position: relative;
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 335px;
+    height: 550px;
+    padding: auto;
+    top: -300px;
+  }
+  .form img.lock {
+    position: absolute;
+    width: 90px;
+    height: 75px;
+    top: -60px;
+    left: 60px;
+  }
+  .login::after {
+    left: 5px;
+    width: 100px;
+  }
+  .signup::after {
+    width: 180px;
+  }
+  .facebook {
+    margin: 10px;
+  }
+}

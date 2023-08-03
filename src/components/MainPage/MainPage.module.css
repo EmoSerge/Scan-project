@@ -1,0 +1,210 @@
+.main {
+  min-width: 92%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4%;
+}
+
+.mainInfo {
+  width: 92%;
+  height: 620px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 110px 0;
+  align-items: center;
+}
+
+.mainContent {
+  width: 53%;
+  margin: 20px 0 20px 0;
+}
+
+.mainTitle {
+  font-family: 'Ferry';
+  min-width: 100%;
+  font-size: 60px;
+  margin: 30px 0 20px 0;
+  line-height: 1.2;
+}
+
+.mainDescription {
+  font-family: 'inter-regular';
+  font-size: 20px;
+  width: 65%;
+  margin: 20px 0 70px 0;
+}
+
+.requestData {
+  font-family: 'inter-medium';
+  font-size: 22px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: var(--second-color-3);
+  padding: 16px 59px;
+  color: var(--main-color-3);
+  transition: all 0.8s ease-in-out;
+}
+
+.requestData:hover {
+  background-color: #95a3fb;
+  color: var(--main-color-2);
+}
+
+.nav {
+  text-align: start;
+  margin: 70px 0 200px 0;
+}
+
+.mainImage {
+  width: 47%;
+  height: 620px;
+}
+
+.mainImage img {
+  width: 100%;
+  height: 620px;
+}
+
+.advertisementBar {
+  width: 92%;
+  height: 349px;
+  margin: 0 0 70px 0;
+  align-items: center;
+  font-family: 'Ferry';
+  font-size: 45px;
+}
+
+.advertImage {
+  width: 92%;
+  height: 575px;
+  margin: 0 0 80px 0;
+}
+
+.advertImagePrimary {
+  display: block;
+  width: 100%;
+  height: 575px;
+}
+
+.advertImageSecondary {
+  display: none;
+}
+
+.tariffTitle {
+  width: 100%;
+  font-family: 'Ferry';
+  font-size: 45px;
+  margin: 0 0 70px 200px;
+}
+
+.tariffs {
+  width: 92%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 0 118px 0;
+}
+
+/* Responsive web design */
+@media (min-width: 993px) and (max-width: 1440px) {
+  .mainTitle {
+    font-size: 45px;
+  }
+
+  .advertImage {
+    height: 445px;
+    margin: 0 0 110px 0;
+  }
+
+  .mainInfo {
+    margin: 0 0 10px 14px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 992px) {
+  .mainInfo {
+    width: 100%;
+    height: 598px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 50px 14px;
+    align-items: center;
+  }
+
+  .mainContent {
+    width: 100%;
+  }
+
+  .mainTitle {
+    width: 100%;
+    font-size: 28px;
+    margin: 20px 0 20px 0;
+  }
+
+  .mainDescription {
+    width: 100%;
+    font-size: 18px;
+    margin: 0 0 32px 0;
+  }
+
+  .nav {
+    text-align: center;
+    margin: 30px;
+  }
+
+  .requestData {
+    font-size: 18px;
+    padding: 12px 50px;
+    margin: 0 0 25px 0;
+  }
+
+  .mainImage {
+    width: 100%;
+    height: 342px;
+  }
+
+  .mainImage img {
+    width: 100%;
+    height: 342px;
+  }
+
+  .advertisementBar {
+    width: 92%;
+    height: 400px;
+    margin: 55px 0 0 0;
+    font-size: 28px;
+  }
+
+  .advertImage {
+    height: 392px;
+    margin: 40px 0 40px 0;
+    overflow: hidden;
+  }
+
+  .advertImagePrimary {
+    display: none;
+  }
+
+  .advertImageSecondary {
+    display: flex;
+    justify-content: center;
+    height: 392px;
+    transform: scale(0.85);
+  }
+
+  .tariffs {
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 43px 0;
+  }
+
+  .tariffTitle {
+    width: 100%;
+    font-size: 28px;
+    margin: 0 0 37px 80px;
+  }
+}

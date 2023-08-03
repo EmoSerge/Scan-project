@@ -1,0 +1,67 @@
+.cardDesktop {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  height: 225px;
+  max-width: 400px;
+  min-width: 170px;
+  margin: 0 30px;
+  padding: 10px;
+}
+
+.cardMobile {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  height: 225px;
+  width: 70%;
+  padding: 10px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cardDesktop img {
+  width: 64px;
+  margin: 10px;
+}
+
+.cardMobile img {
+  width: 57px;
+  height: 64px;
+  margin: 10px;
+}
+
+.contentDesktop {
+  font-family: 'inter-regular';
+  font-size: 17px;
+  padding: 10px 10px 35px 10px;
+}
+
+/* Responsive web design */
+@media (min-width: 993px) and (max-width: 1400px) {
+  .contentDesktop {
+    font-family: 'inter-regular';
+    font-size: 14px;
+    padding: 5px 5px 10px 5px;
+  }
+}
+
+@media (min-width: 763px) and (max-width: 992px) {
+  .contentMobile {
+    font-family: 'inter-regular';
+    font-size: 20px;
+    padding: 5px 5px 25px 5px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 762px) {
+  .contentMobile {
+    font-family: 'inter-regular';
+    font-size: 14px;
+    padding: 5px 5px 25px 5px;
+  }
+}

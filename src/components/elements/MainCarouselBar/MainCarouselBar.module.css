@@ -1,0 +1,41 @@
+.carouselBar {
+  height: 225px;
+  width: 92%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 70px 0 20px 0;
+}
+
+.carouselDesktopContainer {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.carouselMobileContainer {
+  display: none;
+}
+
+.button {
+  width: 39px;
+  height: 39px;
+  background-color: var(--main-color-3);
+  border: none;
+}
+
+/* Responsive web design */
+@media (min-width: 320px) and (max-width: 992px) {
+  .carouselDesktopContainer {
+    display: none;
+  }
+
+  .carouselMobileContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}

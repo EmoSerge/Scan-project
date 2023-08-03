@@ -1,0 +1,235 @@
+.tariffCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    height: 540px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 0 19px;
+}
+
+.tariffHeader {
+    height: 132px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.tariffInfo {
+    width: 70%;
+    margin: 0 0 10px 30px;
+}
+
+.tariffHeader :nth-child(1) {
+    font-size: 30px;
+    font-family: "inter-medium";
+    margin-bottom: 10px;
+}
+
+.tariffHeader :nth-child(2) {
+    font-size: 18px;
+    font-family: "inter-regular";
+}
+
+.tariffImage {
+    margin: 10px 10px 20px 0;
+    width: 96px;
+}
+
+.currentTarifContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.currentTariff {
+    width: 134px;
+    text-align: center;
+    font-family: "inter-regular";
+    font-size: 14px;
+    padding: 4px 0;
+    margin: 12px 10px 10px 0;
+    border-radius: 10px;
+    background-color: rgba(59, 165, 224, 1);
+}
+
+.emptyLine {
+    width: 100%;
+    height: 48px;
+}
+
+.emptyCredit {
+    width: 100%;
+    height: 55px;
+}
+
+.prices {
+    display: flex;
+    flex-direction: row;
+    font-family: "inter-medium";
+    align-items: center;
+    margin: 0 0 0 10px;
+}
+
+.prices :nth-child(1) {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.prices :nth-child(2) {
+    font-size: 25px;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.prices div {
+    margin-left: 10px;
+}
+
+.creditPrice {
+    font-family: "inter-regular";
+    font-size: 18px;
+    margin: 0 0 30px 20px;
+}
+
+.detailsTitle {
+    margin: 0 0 10px 20px;
+    font-family: "inter-medium";
+    font-size: 20px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 55px 20px;
+    font-family: "inter-regular";
+    font-size: 18px;
+}
+
+.detailsText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.toMyAccount {
+    width: 90%;
+    max-height: 60px;
+    font-family: "inter-regular";
+    font-size: 18px;
+    background-color: rgba(210, 210, 210, 1);
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.toMyAccount :nth-child(n) {
+    text-decoration: none;
+}
+
+.aboutTariff {
+    width: 90%;
+    max-height: 60px;
+    font-family: "inter-regular";
+    font-size: 18px;
+    background-color: var(--second-color-3);
+    color: var(--main-color-2);
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.aboutTariff :nth-child(n) {
+    text-decoration: none;
+    color: var(--main-color-3);
+}
+
+/* Responsive web design */
+@media (min-width: 993px) and (max-width:1400px) {
+    .details {
+        margin: 0 0 55px 10px;
+        font-family: "inter-regular";
+        font-size: 13px;
+    }
+
+    .toMyAccount {
+        font-size: 14px;
+    }
+
+    .aboutTariff {
+        font-size: 14px;
+    }
+
+    .emptyCredit {
+        width: 100%;
+        height: 75px;
+    }
+}
+
+@media (min-width: 320px) and (max-width:992px) {
+    .tariffCard {
+        width: 93%;
+        height: 512px;
+        margin: 28px 20px;
+    }
+
+    .detailsTitle {
+        font-size: 18px;
+        margin: 0 0 10px 30px;
+    }
+
+    .details {
+        font-size: 16px;
+        margin: 0 0 39px 25px;
+    }
+
+    .detailsText {
+        margin: 0 0 5px 0;
+    }
+
+    .creditPrice {
+        font-family: "inter-regular";
+        font-size: 18px;
+        margin: 0 28px 37px 30px;
+    }
+
+    .prices {
+        margin: 20px 0 0 20px;
+    }
+
+    .prices div {
+        margin: 0 10px;
+    }
+
+    .currentTariff {
+        display: none;
+    }
+
+    .emptyLine {
+        display: none;
+    }
+
+    .toMyAccount {
+        width: 90%;
+        margin: 0 auto;
+        padding: 15px 0px;
+        margin-bottom: 20px;
+    }
+
+    .aboutTariff {
+        width: 90%;
+        max-height: 60px;
+        font-family: "inter-regular";
+        margin: 0 auto;
+        padding: 15px 0px;
+        margin-bottom: 20px;
+    }
+}

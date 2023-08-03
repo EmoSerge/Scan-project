@@ -1,0 +1,18 @@
+.App {
+  font-family: 'inter-regular', sans-serif;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+button {
+  cursor: pointer;
+}
+
+Link {
+  cursor: pointer;
+}
+
+main {
+  flex-grow: 1;
+}

@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'ferry';
+  src: url('../fonts/ferry/Ferry-Black.woff') format('woff');
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'inter-regular';
+  src: url('../fonts/inter/Inter-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'inter-medium';
+  src: url('../fonts/inter/Inter-Medium.ttf') format('ttf');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'inter-bold';
+  src: url('../fonts/inter/Inter-Bold.ttf') format('ttf');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  --main-color-1: #029491;
+  --main-color-2: #000000;
+  --main-color-3: #ffffff;
+
+  --second-color-1: #ffb64f;
+  --second-color-2: #7ce3e1;
+  --second-color-3: #5970ff;
+
+}

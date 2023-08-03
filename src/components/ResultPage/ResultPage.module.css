@@ -1,0 +1,124 @@
+.resultPage {
+  box-sizing: border-box;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 20px 109px 20px;
+  background-color: var(--main-color-3);
+}
+
+.soonResult {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.resultImg {
+  margin-top: 25px;
+}
+
+.titleBlock {
+  margin-top: 69px;
+  max-width: 510px;
+}
+
+.title {
+  font-family: 'Ferry';
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+
+  color: var(--main-color-2);
+}
+
+.text {
+  font-family: 'inter-regular';
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: var(--main-color-2);
+
+  margin-top: 36px;
+}
+
+.subtitle {
+  font-family: 'Ferry';
+  font-size: 30px;
+  letter-spacing: 0.02em;
+
+  color: var(--main-color-2);
+}
+
+.summaryBlock {
+  padding-bottom: 107px;
+}
+
+.summaryBlock .subtitle {
+  margin-bottom: 17px;
+}
+
+.dataSum {
+  color: #949494;
+  font-size: 18px;
+  font-family: 'inter-regular';
+  letter-spacing: 0.36px;
+  margin-bottom: 27px;
+}
+
+.resultList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 38px;
+  margin-top: 58px;
+  position: relative;
+}
+
+.seeMoreBtn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+
+  font-family: 'inter-medium';
+  font-size: 22px;
+  letter-spacing: 0.04em;
+
+  color: var(--main-color-3);
+  background-color: var(--second-color-3);
+  padding: 16px 51px;
+  border-radius: 5px;
+  transition: background-color ease-in-out 0.2s;
+}
+
+.seeMoreBtn:hover {
+  background-color: var(--main-color-1);
+  transition: background-color ease-in-out 0.2s;
+}
+
+.seeMoreBtnHidden {
+  display: none;
+}
+
+@media (max-width: 1140px) {
+  .resultPage {
+    max-width: 550px;
+  }
+  .soonResult {
+    justify-content: center;
+  }
+  .resultList {
+    grid-template-columns: 335px;
+    justify-content: center;
+    margin-top: 34px;
+  }
+  .title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .subtitle {
+    font-size: 28px;
+  }
+}
